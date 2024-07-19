@@ -1,0 +1,49 @@
+.edit-note {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #f0eded;
+    border-radius: 5px;
+    background-color: #e3e1e1;
+}
+
+.edit-note h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-note .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.edit-note .form input{
+    /* width: 100%; */
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+}
+.edit-note .form textarea {
+    /* width: 100%; */
+    padding: 10px;
+    border: 1px solid #0e0e0e;
+    border-radius: 5px;
+    height: 200px;
+}
+
+.edit-note .form button {
+    width: 150px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-note .form button:hover {
+    background-color: #0056b3;
+}

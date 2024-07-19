@@ -1,0 +1,30 @@
+.nav{
+  height:50px;
+  background-color: rgb(234, 233, 232);
+  padding: 10px;
+  text-align: right;
+}
+
+.but {
+  padding: 0.75rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.but-success {
+  border-radius: 20px;
+  background-color: #dadadb;
+  border-color: #bbbcbe;
+  color: #0b0b0b;
+}
+
+.but-success:hover {
+  background-color: #a19ea4;
+  border-color: #99949d;
+  color: #080707;
+}
+
+.but:focus {
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
